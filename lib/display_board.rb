@@ -1,7 +1,21 @@
 # Define display_board that accepts a board and prints
 # out the current state.
 def display_board(board)
-  puts ("   | X |   ")
+  puts ("   |   |   ")
+  puts ("-----------")
+  puts ("   |   |   ")
+  puts ("-----------")
+  puts ("   |   |   ")
+end
+def display_board(board)
+  puts ("   |   |   ")
+  puts ("-----------")
+  puts ("   | #{bard[4]} |   ")
+  puts ("-----------")
+  puts ("   |   |   ")
+end
+def display_board(board)
+  puts (" #{bard[0]} |  |   ")
   puts ("-----------")
   puts ("   |   |   ")
   puts ("-----------")
